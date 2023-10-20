@@ -414,16 +414,12 @@ address {
         margin-bottom: 8px;
 }
 
-.socials-lan {
+.socials-lan {}
+
+.socials {
     display: flex;
     justify-content: center;
     gap: 24px;
-}
-
-.socials {
-    /* display: flex;
-    justify-content: center;
-    gap: 24px; */
 }
 
 .socials-item {
