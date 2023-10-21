@@ -603,8 +603,8 @@ address {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #FFFFFF;
-    margin-bottom: 16px; */
+    color: #FFFFFF; */
+    margin-bottom: 16px;
 }
 
 .footer-socials {
@@ -628,11 +628,11 @@ address {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-socials-link:hover {
+.social-container:hover {
     background-color: #31d0aa;
 }
 
-.footer-socials-link:focus {
+.social-container:focus {
     background-color: #31d0aa;
 }
 
