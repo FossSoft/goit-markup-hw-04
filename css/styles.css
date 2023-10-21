@@ -571,18 +571,12 @@ address {
 }
 
 .footer-text {
-    line-height: 1.5;
-    color: #F4F4FD;
-    letter-spacing: 0.02em;
-    max-width: 264px;
-}
-
-.footer-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #FFFFFF;
     margin-bottom: 16px;
+    max-width: 264px;
 }
 
 .socials-text {
@@ -615,8 +609,11 @@ address {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-socials-link:hover,
-:focus {
+.footer-socials-link:hover {
+    background-color: #31d0aa;
+}
+
+.footer-socials-link:focus {
     background-color: #31d0aa;
 }
 
