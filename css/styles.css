@@ -541,16 +541,8 @@ address {
 /* Footer */
 
 .footer { 
-    /* background-color: #2e2f42;
-    padding: 100px 0; */
     background-color: #2e2f42;
-    align-items: baseline;
     padding: 100px 0;
-        /*156px*/
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
 }
 
 .footer-container {
@@ -579,13 +571,19 @@ address {
 }
 
 .footer-text {
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #FFFFFF;
     margin-bottom: 16px;
+    /* font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-bottom: 16px;
     max-width: 264px;
-    font-weight: 500
+    font-weight: 500 */
 }
 
 .social-container {
@@ -598,13 +596,13 @@ address {
     font-weight: 500
 }
 
-.socials-text {
+.social-text {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #FFFFFF;
-    margin-bottom: 16px; */
+    margin-bottom: 16px;
 }
 
 .footer-socials {
