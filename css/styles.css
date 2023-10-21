@@ -560,7 +560,6 @@ address {
 
 .footer-section-logo {
     margin-right: 120px;
-    margin-left: 120px;
 }
 
 .footer-logo-btr {
@@ -589,13 +588,23 @@ address {
     font-weight: 500
 }
 
-.socials-text {
-    font-weight: 500;
+.social-container {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #FFFFFF;
     margin-bottom: 16px;
+    max-width: 264px;
+    font-weight: 500
+}
+
+.socials-text {
+    /* font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-bottom: 16px; */
 }
 
 .footer-socials {
