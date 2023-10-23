@@ -229,7 +229,7 @@ address {
        rgba(46, 47, 66, 0.7)),
        url(/images/people-office.jpg); */
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)), url(/images/people-office.jpg);
+      rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -574,8 +574,9 @@ address {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #FFFFFF;
-    margin-bottom: 16px;
-    /* font-size: 16px;
+    max-width: 254px;
+    /* margin-bottom: 16px;
+    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #FFFFFF;
